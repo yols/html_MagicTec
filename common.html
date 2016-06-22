@@ -1,0 +1,255 @@
+<!--2016-06-07-svn-1-->
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>魔術娛樂</title>
+    <!--網頁名稱-->
+    <link rel="shortcut icon" href="../img/index/icons.ico">
+    <!--頁首上小圖片link rel屬性指定="icon語法"  href="連結路徑位置"-->
+    <!-- css -->
+    <link rel="stylesheet" href="../lib_css/resect.css">
+    <link rel="stylesheet" href="../lib_css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="../lib_css/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../lib_css/owl/owl.theme.green.min.css">
+    <link rel="stylesheet" href="../lib_css/marquee.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <!--連結css樣式rel="css指令" href="檔案位置"-->
+    <script src="../lib/modernizr.js"></script><!--IE8相容套件-->
+
+</head>
+<body>
+
+    <!--客服開始-->
+    <aside>
+        <div class="service_box">联系客服
+            <div class="s_arrow"  id="Aside_Btn_Fold"><a></a></div>
+        </div>
+
+        <div class="service_online">
+            <ul class="service">
+            <li><a class="s_help" href="#">帮助中心</a></li>
+            <li><a class="s_online" href="#">在线客服</a></li>
+            <li><a class="s_qq" href="#">&nbsp;&nbsp;&nbsp;3164255380</a></li>
+            <li><a class="s_wechat" href="#">微信扫一扫</a></li>
+            </ul>
+        </div>
+    </aside>
+    <!--客服結束-->
+
+    <!--往上-->
+    <div class="totop"><a href="#"></a></div>
+    <!--往上-->
+
+    <!--上方header 開始-->
+    <header>
+            <div class="header_inside">
+                <!--時間-->
+                <div class="topbar-hd">
+                    <span id="Header_Span_Time"></span>
+				        </div>
+
+                <!--右上按鈕-->
+                <div class="top_button">
+                <ul class="icon_button">
+                <li><a class="home" href="#"></a></li>
+                <li><a class="star" href="#"></a></li>
+                <li><a class="help" href="#"></a></li>
+                </ul>
+
+                <!--無法登入-->
+                <div class="no_signin"><a href="#">无法登入</a></div>
+
+                <!--語言-->
+                <form>
+                <select class="select_1anguage" id="">
+                <option value="简体中文">简体中文</option>
+                <option value="繁体中文">繁体中文</option>
+                <option value="English">English</option>
+                </select>
+                </form>
+              </div>
+
+               <div class="topbar_mid"><!--登入資訊 開始-->
+                    <div class="logo"><a href="#"></a></div>
+                    <div class="slogan"></div>
+
+                    <!--login-1 登入 開始-->
+                    <div class="login_box" style="display:block" id="Header_Div_NotLogin">
+                      <form id="Header_Form_Login" action="" method="post">
+                        <input type="text" class="login_account" placeholder="账号" maxlength="12" name="username"/>
+                        <input type="password" class="login_password" placeholder="密码" maxlength="16" name="password"/>
+                        <div class="text-code">
+                        <input type="text" class="login_code" placeholder="验证码" maxlength="4" name="code"/>
+                        <div class="code_box" id="Header_Div_Code">
+                        <a href="#" class="code"><img src="../index.php?c=verifiedCode&m=verify&ts=1111" id="Header_Img_Code"></a>
+                        </div>
+                    </div>
+
+                        <!--登入註冊按鈕-->
+                        <div class="but">
+                        <ul>
+                         <li><a class="but-reg" href="#" >
+                             <input type="submit" class="but-reg" value="登入"></a></li>
+                         <li><a class="but-reg" href="#" >注册</a></li>
+                         <li><a class="try_game" href="#">免费试玩</a></li>
+                        </ul>
+                        </div>
+                      </form>
+                    </div>
+
+                    <!--login-1 登入 結束-->
+
+                    <!--loading-2 會員已登入中 開始-->
+                    <div class="loading" style="display:none" id="Header_Div_Logining"></div>
+                    <!--loading-2 會員已登入中 結束-->
+
+                    <!--logout-3 會員已登入 開始-->
+                    <div class="logout_box" style="display:none" id="Header_Div_Logined">
+
+                        <!--帳號-->
+                        <div class="username">
+                            <div class="person_img"></div>
+                            <p>&nbsp;Hi,</p>
+                            <p id="Header_P_AccountName">&nbsp;a12345678901</p>
+                        </div>
+
+                        <!--站內訊息-->
+                        <div class="email_img">
+                            <a href="#"></a>
+                        <div class="email_new" style="display:block"></div>
+                        </div>
+
+                        <!--总额度-->
+                        <div class="total_cash">
+                            <span>总额度：</span>
+                            <span id="Header_Div_MoneyAmount">9,999,999.99</span>
+                            <span>元</span>
+                        <div class="hide" id="Header_Div_DisplayMoney"><a>隐藏</a></div>
+                        </div>
+
+                        <!--存提款/會員中心/登出 按鈕-->
+                        <div class="pushbutton">
+                            <ul>
+                            <li><a class="deposit" href="#">存款</a></li>
+                            <li><a class="deposit" href="#">提款</a></li>
+                            <li><a class="membercentre" href="#">会员中心</a></li>
+                            <li><a class="logout_but" href="#" id="Header_A_Logout">登出</a></li>
+                            </ul>
+                        </div>
+                    </div><!--logout-3 會員已登入 結束-->
+                </div><!--登入資訊 結束-->
+
+                <div class="new_box"><!--優惠活動上方新-->
+                    <div class="new_icon">new</div>
+                </div>
+
+                <!--上方選單 開始-->
+                <div class="game_menu">
+                    <ul class="menuicon">
+                    <li><a class="index_home" href="#">首页</a></li>
+                    <li><a class="people" href="#">真人娱乐</a></li>
+                    <li><a class="slotgame" href="#">电子游艺</a></li>
+                    <li><a class="chess" href="#">棋牌游戏</a></li>
+                    <li><a class="preferential" href="#">优惠活动</a></li>
+                    <li><a class="history" href="#">魔术风采</a></li>
+                    </ul>
+                </div>
+                <!--上方選單 結束-->
+            </div>
+    </header>
+    <!--上方header 結束-->
+
+    <!--公告開始 樣式marquee.css-->
+    <div class="note">
+    <div class="note_inside">
+                <span>最新消息:</span>
+                <div class="marquee" id="Header_Div_Marquee" style="top: 0px;"></div>
+                </div>
+    </div>
+    <!--公告結束-->
+    
+    <!--內容 開始-->
+    <article>
+        <div class="article_inside">
+            
+            
+        </div>
+    </article>
+    <!--內容 結束-->
+
+    <!--網頁資訊 版權內容 開始-->
+    <footer>
+        <div class="footer_inside">
+            <!--關於我開始-->
+            <div class="provision_box">
+                <ul class="provision">
+                <li ><a href="#">关于我们</a></li>
+                <li ><a href="#">常见问题</a><span>|</span></li>
+                <li ><a href="#">规则条例</a><span>|</span></li>
+                <li ><a href="#">隐私政策</a><span>|</span></li>
+                <li ><a href="#">理性博彩</a><span>|</span></li>
+                <li ><a href="#">加盟合作</a><span>|</span></li>
+                </ul>
+            </div>
+            <!--關於我結束-->
+
+            <!--建议浏览器開始-->
+            <div class="browser_box">
+            <h1 class="comment_text">建议浏览器：</h1>
+                <ul class="browser">
+                    <li class="ie"></li>
+                    <li class="chrome"></li>
+                    <li class="firefox"></li>
+                </ul>
+            </div>
+            <!--建议浏览器結束-->
+
+            <!--右下qrcode開始-->
+            <div class="qrcode_box">
+                <div class="f_qrcode"><a href="#"></a></div>
+                <h1 class="qrcode_text">魔术娱乐手机投注
+                <br>扫描二维码立即下载APP
+                <br>随时随地畅玩娱乐</h1>
+
+                <div class="f_icon">
+                <ul class="logo_icon">
+                <li><a class="icon_01" href="#"></a></li>
+                <li><a class="icon_02" href="#"></a></li>
+                <li><a class="icon_03" href="#"></a></li>
+                </ul>
+                </div>
+             </div>
+            <!--右下qrcode結束-->
+
+            <!--合作夥伴開始-->
+            <div class="partners">
+                <ul class="firm">
+                    <li class="firm_ag"><a href="#"></a></li>
+                    <li class="firm_hogaming"><a href="#"></a></li>
+                    <li class="firm_bbin"><a href="#"></a></li>
+                    <li class="firm_fc"><a href="#"></a></li>
+                    <li class="firm_18"><a href="#"></a></li>
+                </ul>
+            </div>
+            <!--合作夥伴結束-->
+
+            <div class="line"></div>
+            <div class="copyright">© 2016 魔术娱乐  版权所有</div>
+        </div>
+    </footer><!--網頁資訊 版權內容 結束-->
+
+    <!-- javascript -->
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../lib/jquery-ui.min.js"></script>
+    <script src="../lib/jquery.placeholder.min.js"></script>
+    <script src="../lib/jquery.marquee.min.js"></script>
+    <script src="../lib/jquery.validate.min.js"></script>
+    <script src="../lib/additional-methods.min.js"></script>
+    <script src="../lib/owl.carousel.min.js"></script>
+    <script src="../lib/messages_zh.min.js"></script>
+    <script src="../js/MagicianCore.js"></script>
+    <script src="../js/CommonStructure.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

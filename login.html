@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>MagicianTec</title>
+</head>
+
+<body>
+    <div class="loginSection">
+        <form method="post" id="Content_Form_Login" action="">
+            <div class="inputSection">
+                <input type="text" name="username" value="" placeholder="账号名称">
+                <br>
+                <input type="password" name="password" value="" placeholder="密码">
+                <br>
+                <input type="text" name="code" value="" placeholder="验证码">
+                <div id="refreshCode"><img alt="验证码" src="../index.php?c=verifiedCode&m=verify" title="点图换验证码" id="CodeImage"></div>
+            </div>
+            <div class="submit_Section">
+              <input type="submit" value="登入">
+            </div>
+        </form>
+    </div>
+
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../lib/jquery.validate.min.js"></script>
+    <script src="../lib/additional-methods.min.js"></script>
+    <script src="../lib/localization/messages_zh.min.js"></script>
+    <script src="../js/MagicianCore.js"></script>
+    <script src="../js/login.js"></script>
+
+</body>
+
+</html>
